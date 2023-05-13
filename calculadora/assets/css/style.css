@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+:root{
+  --global-color:  rgba(14, 34, 207, 0.795);
+  --global-color-darker:rgb(10, 21, 107);
+
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  background: var(--global-color);
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+.container{
+  max-width: 450px;
+  margin: 100px auto;
+  background: rgb(3, 3, 3);
+  padding: 20px;
+  border-radius: 20px;
+}
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form input{
+  font-size: 24px;
+  height: 40px;
+  padding: 0 10px;
+}
+form input:focus{
+  outline: 2px solid var(--global-color);
+}
+form button{
+  border: none;
+  background: var(--global-color);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  cursor: pointer;
+}
+form button:hover {
+  background: var(--global-color-darker);
+}
+
+.calculadora{
+  width: 400px;
+}
+.display{
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  font-family: fantasy;
+}
+.btn{
+  width: 100%;
+  font-size: 2em;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  background: #c4c3c3;
+  font-family: fantasy;
+}
+.btn:hover{
+  background: #8a8888;
+}
+.titulo{
+  font-family: fantasy;
+  font-size: 3em;
+}
+
+.btn-eq:hover{
+  background: rgba(16, 16, 202, 0.897);
+}
+
+.titulo{
+  text-align: center;
+  color: white;
+}
